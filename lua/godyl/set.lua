@@ -7,6 +7,8 @@ vim.opt.shiftwidth = 2
 vim.opt.expandtab = true
 
 vim.opt.smartindent = true
+vim.opt.autoindent = true
+vim.opt.smarttab = true
 
 vim.opt.wrap = false
 
@@ -15,6 +17,8 @@ vim.opt.backup = false
 
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
 
 vim.opt.termguicolors = true
 

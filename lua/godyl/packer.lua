@@ -21,6 +21,7 @@ return require('packer').startup(function(use)
   use { 'simrat39/symbols-outline.nvim' }
   use { 'ray-x/lsp_signature.nvim' }
   use { 'terrortylor/nvim-comment' }
+  use { 'jiangmiao/auto-pairs' }
   use { 'ThePrimeagen/harpoon' }
 
   use { 'folke/zen-mode.nvim' }

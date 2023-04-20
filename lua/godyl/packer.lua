@@ -18,6 +18,7 @@ return require('packer').startup(function(use)
   use { 'mbbill/undotree' }
   use { 'Mofiqul/dracula.nvim' }
   use { 'tpope/vim-fugitive' }
+  use { 'simrat39/symbols-outline.nvim' }
 
   use { 'folke/zen-mode.nvim' }
 

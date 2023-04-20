@@ -17,6 +17,10 @@ require'nvim-treesitter.configs'.setup {
     'query'
   },
 
+  indent = {
+    enable = true,
+  },
+
   autotag = {
     enable = true,
   },

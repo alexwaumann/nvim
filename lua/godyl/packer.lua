@@ -19,6 +19,8 @@ return require('packer').startup(function(use)
   use { 'Mofiqul/dracula.nvim' }
   use { 'tpope/vim-fugitive' }
 
+  use { 'folke/zen-mode.nvim' }
+
   use {
     'nvim-lualine/lualine.nvim',
     requires = { 'nvim-tree/nvim-web-devicons', opt = true }

@@ -23,6 +23,7 @@ return require('packer').startup(function(use)
   use { 'terrortylor/nvim-comment' }
   use { 'jiangmiao/auto-pairs' }
   use { 'ThePrimeagen/harpoon' }
+  use { 'windwp/nvim-ts-autotag' }
 
   use { 'folke/zen-mode.nvim' }
 

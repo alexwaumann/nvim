@@ -19,6 +19,7 @@ return require('packer').startup(function(use)
   use { 'Mofiqul/dracula.nvim' }
   use { 'tpope/vim-fugitive' }
   use { 'simrat39/symbols-outline.nvim' }
+  use { "ray-x/lsp_signature.nvim" }
 
   use { 'folke/zen-mode.nvim' }
 

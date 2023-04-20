@@ -13,6 +13,9 @@ require("nvim-tree").setup({
   filters = {
     dotfiles = true,
   },
+  view = {
+    width = 50,
+  },
 })
 
 vim.keymap.set('n', '<leader>ee', vim.cmd.NvimTreeFocus)

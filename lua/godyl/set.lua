@@ -34,4 +34,7 @@ vim.opt.colorcolumn = '110'
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 
+vim.opt.showmode = false
+vim.opt.showmatch = true
+
 vim.g.mapleader = ' '

@@ -3,7 +3,9 @@ local lsp = require('lsp-zero')
 lsp.preset('recommended')
 
 lsp.on_attach(function(client, bufnr)
-  lsp.default_keymaps({buffer = bufnr})
+  lsp.default_keymaps({ buffer = bufnr })
+  local opts = { buffer = bufnr, remap = false }
+  vim.keymap.set('n', 'gr', '<cmd>Telescope lsp_references<cr>', { buffer = true }, opts)
 end)
 
 lsp.ensure_installed({
@@ -20,7 +22,7 @@ local cmp = require('cmp')
 
 cmp.setup({
   mapping = {
-    ['<CR>'] = cmp.mapping.confirm({select = true}),
+    ['<CR>'] = cmp.mapping.confirm({ select = false }),
     ['<C-Space>'] = cmp.mapping.complete(),
   }
 })
